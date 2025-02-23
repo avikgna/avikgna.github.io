@@ -1,0 +1,61 @@
+body {
+    background: #000;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+  #introScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centers vertically */
+    align-items: center;     /* centers horizontally */
+    height: 100vh;           /* ensures the container takes full viewport height */
+    text-align: center;
+  }
+
+  #usContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centers vertically */
+    align-items: center;
+    display: none;
+    z-index: 10; 
+  }
+
+
+  
+  #fireworksCanvas {
+    display: none; /* Hidden until transition */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index : 1;
+  }
+  
+  #emoji-container {
+    position: absolute;
+    font-size: 48px;
+    pointer-events: none;
+  }
+
+  #introImage{
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+  }
+
+
+  #usImage{
+    width: 250px;
+    height: 300px;
+  }
+
+
+  
+
